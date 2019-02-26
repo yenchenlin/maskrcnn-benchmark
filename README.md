@@ -1,5 +1,10 @@
 # Faster R-CNN and Mask R-CNN in PyTorch 1.0
 
+## Finetune
+```
+CUDA_VISIBLE_DEVICES=2 python tools/train_net.py --config-file "./configs/omnipush/e2e_keypoint_rcnn_R_50_FPN_1x_caffe2.yaml"
+```
+
 This project aims at providing the necessary building blocks for easily
 creating detection and segmentation models using PyTorch 1.0.
 
